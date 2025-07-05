@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@android:color/white">
+
+    <!-- Day of the week -->
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Monday"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <!-- Maximum Temperature -->
+    <TextView
+        android:id="@+id/textTempMax"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Max: 25°C"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <!-- Minimum Temperature -->
+    <TextView
+        android:id="@+id/textTempMin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Min: 15°C"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <!-- Temperature (General, for average or summary) -->
+    <TextView
+        android:id="@+id/textTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="22°C"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"/>
+</LinearLayout>

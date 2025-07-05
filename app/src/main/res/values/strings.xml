@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MAP_PBL</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>
