@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌦️ Dynamic Weather App - Android (Kotlin)
 
 A sleek and responsive Android weather application built using Kotlin. The app features real-time weather updates powered by the OpenWeatherMap API and adapts its background dynamically based on the current weather conditions. It also includes animated UI transitions, a custom splash screen, and a clean design using ConstraintLayout and Material Design components.
@@ -61,3 +62,6 @@ This project is licensed under the MIT License.
 
 - Weather data from OpenWeatherMap  
 - Icons from Flaticon and other royalty-free sources
+=======
+# Weather-App
+>>>>>>> 7157de1655db48229276a824630bd831d5954654
